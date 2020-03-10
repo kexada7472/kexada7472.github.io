@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+ul, ol {
+    padding-left: 3vmin;
+}
+
+li {
+    overflow: visible;
+}
+
+body {
+    background-image: linear-gradient(45deg, #00000030, transparent);
+    background-size: 100vmax 100vmax;
+    width: 100vw;
+    height: 100vh;
+}
+
+.indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2vmin;
+    background: #00000050;
+    border-radius: 0.3vmin;
+}
+
+.slides>div {
+    position: absolute;
+    will-change: transform;
+    width: 150vmin;
+    height: 100vmin;
+    left: calc(50vw - 75vmin);
+    top: calc(50vh - 50vmin);
+    font-size: 2vmin;
+}
+
+.container {
+    position: relative;
+    width: 150vmin;
+    height: 100vmin;
+}
+
+.container>* {
+    position: absolute;
+    text-align: justify;
+}
+
+.container p {
+    text-indent: 5vmin;
+}
